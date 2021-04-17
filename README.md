@@ -1,5 +1,4 @@
 # Comptia-Sec-601
-While studying Cyber Security at UTSA, the Comptia security+ is a certificate that every infosec professional should get. This repo is my progress in getting the certificate. 
 
 # Index 
 1.0 Threats, Attacks, and Vulnerabilities
