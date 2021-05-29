@@ -101,7 +101,7 @@
     – The social engineer is in charge, usually uses impersonation to gain authority 
 
 - **Intimidation** 
-    – They use scare tactics such as you will be arrested, payroll won’t be processed, etc. 
+  – They use scare tactics such as you will be arrested, payroll won’t be processed, etc. 
 
 > **Consensus** – Convivence based on what’s normally expected; “a coworker did this for me last week” 
 
