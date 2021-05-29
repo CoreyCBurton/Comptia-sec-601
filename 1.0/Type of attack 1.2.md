@@ -8,20 +8,21 @@
  
 
 # Trojans 
-* The background story of Trojan comes from Greeks and how they captured Troy by hiding in a big wooden horse.
+- The origin of the name Trojan comes from the Greeks and how they captured Troy by hiding in a big wooden horse.
 
-* The software looks completely normal, the goal is to trick the user into running the software such as a spreadsheet or a game but it actually is a virus. 
+- The software looks completely normal, the goal is to trick the user into running the software such as a spreadsheet or a game but it actually is a virus hence the name Trojan. 
+  - The virus is usually hidden from your antivirus and shuts it off in some situations.
 
-* The virus is usually hidden from your antivirus and shuts it off in some situations.
-
-* It can download unwanted malware and install **backdoors**.
+- The virus can install a **backdoor** which allows the attacker to gain access into the system again. 
 
 # Remote Acess Trojans (RAT) 
-* Remote administration tool
+- With a Trojan being installed, a remote administration tool is given to the attacker. 
+  - Keylogging, screen recording, copy files, embed more malware can be done through this remote administration tool.
 
-* Keylogging, screen recording, copy files, embed more malware
+- **Example** - Darknet, a remote access trojan (RAT) developed by Jean-Pierre Lesuer that allowed a user to control a system with a graphical user interface. Tracks users by taking screen captures, keylogging, or password stealing. 
 
-> Darknet, a remote access trojan (RAT) developed by Jean-Pierre Lesuer that allowed a user to control a system with a graphical user interface. Tracks users by taking screen captures, keylogging, or password stealing. 
+![image](https://user-images.githubusercontent.com/81980702/120059197-87325100-c015-11eb-936f-224875427f3c.png)
+> Image of SubSeVen, A RAT interface, 
 
 # Potentially unwanted programs (PUPs) 
 * Identifies by anti-virus/anti-malware 
