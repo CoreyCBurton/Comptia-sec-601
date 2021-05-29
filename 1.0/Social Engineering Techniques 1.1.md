@@ -94,12 +94,14 @@
 - A fake campaign that sways public opinion on political issues. The goal of the criminals behind this campaign is to divide, distract, and persuade.
 - The criminal sets up fake users, creates content, post on social media, amplifies message, real users share the message, mass media picks it up. 
   - **Hybrid warfare** – Military strategy where a country tries to sway views politically. It has fake news and known as “Cyber Warfare”.
-      - **Social Media** - The attack usually happens on social media to affect the general population on their opinions. 
+  - **Social Media** - The attack usually happens on social media to affect the general population on their opinions. 
 
 # Principles (reasons for effectiveness)
-> **Authority** – The social engineer is in charge, usually uses impersonation to gain authority 
+- **Authority** 
+    – The social engineer is in charge, usually uses impersonation to gain authority 
 
-> **Intimidation** – They use scare tactics such as you will be arrested, payroll won’t be processed, etc.
+- **Intimidation** 
+    – They use scare tactics such as you will be arrested, payroll won’t be processed, etc. 
 
 > **Consensus** – Convivence based on what’s normally expected; “a coworker did this for me last week” 
 
