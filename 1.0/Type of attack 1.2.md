@@ -215,6 +215,6 @@
 
 # Downgrade attack
 - A cryptographic attack where the attacker explouts the need for backward compatibility.
-- - Forces a computer system to abandon the use of encrypted messages in favor of plaintext messages.
+  - Forces a computer system to abandon the use of encrypted messages in favor of plaintext messages.
 
 - **Example** in 2014, a TLS vulnerability POODLE, they forced the encryption to SSL3.0 which has vulnerabilities. 
