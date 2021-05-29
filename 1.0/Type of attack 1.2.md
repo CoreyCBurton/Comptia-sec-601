@@ -31,22 +31,26 @@
 - **Examples** - Software backups, toolbar applications, and many more unwanted programs.
 
 # Worms
-* Malware that self-replicates
+- A type of malware that replicates in a system memory and can spread over network connection rather than infecting files. 
+  - A virus is executed only when a user performs an action such as downloading and running an infected executable process.
 
-* Uses a network as a transmission medium
+- The Code-Red worm was infected early versions of Microsoft IIS webserver due to **Buffer Overflow Vulnerability**.
 
-* The worm takes over systems very quizkly 
+- The primary affect of a worm is to consume network bandwidth as the worm replicates. 
+  - The worm can also crash an operating system or server applications ( **DoS**).
+  - Worms ussually have a payload also. 
 
-* Firewalls can stop many worm infestations
-
-> The Wannacry worm happened in 2017, it installed crypto malware on computers which were then held for ransom. The worm was able to spread to multiple computers. To spread, there was no human intervention involved 
+- **Example** - The Wannacry worm happened in 2017, it installed crypto malware on computers which were then held for ransom. The worm was able to spread to multiple computers. To spread, there was no human intervention involved 
 
 # Fileless virus
-* It is a stealth attack
+- Fileless malware does not write its code to a disk.
+ - Uses memory resident to techniques to run its own processes. 
 
-* Operates in memoery
+- Fileless malware uses lightweight **Shellcode** to achieve a backdoor on the host.
+  - This allows low detection by scanners. 
+  - Uses Windows Management Instrumentation ( WMI ) to execute payloads.
 
-> user clicks on a malicious website link. Website exploits a Flash/Java/Windows vulnerability. 	Launches PowerShell and downloads payload. Runs PowerShell scripts and executes in memory. Adds an auto start to registry.
+- **Example** - user clicks on a malicious website link. Website exploits a Flash/Java/Windows vulnerability. Launches PowerShell and downloads payload. Runs PowerShell scripts and executes in memory. Adds an auto start to registry.
 
 # Command and Control
 * A computer controlled by an attacker which is used to send commands to systems compromised by malware and receive stolen data from a target network
