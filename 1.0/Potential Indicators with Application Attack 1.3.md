@@ -173,7 +173,7 @@
   -Attacker sits in the middle of the attack with the client and server
 
 - Proxy server, ARP spoofing, Rouge WI-FI hotspot
-  -Software and browser needs to be updated to be countered
+  - Software and browser needs to be updated to be countered
 
 - How to counter act
   - the user and the server expect to receive an HTTPS instead of HTTP which stops the man in the middle attack.
