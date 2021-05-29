@@ -8,7 +8,7 @@
 
 # Vishing 
 - A portmanteau of “voice” and phishing where cybercriminals make phone calls or leave voice mails to lure an individual to reveal personal information such as bank or credit card information. 
-               - **Example** – During tax season, cybercriminals pretend to be the IRS to try and collect information. This also happened during COVID-19, the cybercriminals also acted like a vaccine center.
+- **Example** – During tax season, cybercriminals pretend to be the IRS to try and collect information. This also happened during COVID-19, the cybercriminals also acted like a vaccine center.
 
 # Spam 
 Unsolicited bulk messages being sent through email, instant messaging, or other digital communication tools. Cybercriminals use this to try and collect confidential information by reaching a large audience by mass messaging. 
