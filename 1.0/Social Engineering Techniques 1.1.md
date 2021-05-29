@@ -98,17 +98,25 @@
 
 # Principles (reasons for effectiveness)
 - **Authority** 
-  - The social engineer is in charge, usually uses impersonation to gain authority 
+  - People find it difficult to refuse a request by someone they perceive as superior
 
 - **Intimidation** 
   - They use scare tactics such as you will be arrested, payroll won’t be processed, etc. 
 
-> **Consensus** – Convivence based on what’s normally expected; “a coworker did this for me last week” 
+- **Consensus** 
+  - Convivence based on what’s normally expected; “a coworker did this for me last week”
+  - Many people act just as they think others will act
 
-> **Scarcity** – The situation won’t last very long; Rushes the process to make the victim ignore thinking. 
+- **Scarcity** 
+  - The situation won’t last very long; Rushes the process to make the victim ignore thinking. 
+  - This is a false sense of scarcity.
 
-> **Familiarity** – They try to become your friend or relate to you to, so you let down your security.
+- **Familiarity** 
+  - They try to become your friend or relate to you to, so you let down your security.
+  - There is a natural chrisma that allows people to be persuaded.
  
-> **Trust** – Gives the victim a sense of safety, they can claim they are a part of the IT team 
+- **Trust** 
+  - Gives the victim a sense of safety, they can claim they are a part of the IT team.
 
-> **Urgency** – They state that this needs to be done or you will be arrested or your bank will be charged.
+- **Urgency**
+  – They state that this needs to be done or you will be arrested or your bank will be charged.
