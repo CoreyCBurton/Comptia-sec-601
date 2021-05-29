@@ -25,13 +25,10 @@
 > Image of SubSeVen, A RAT interface, 
 
 # Potentially unwanted programs (PUPs) 
-* Identifies by anti-virus/anti-malware 
-
-* Unwanted and installed by other software
-
-* Browser search engine hijacker
-
-> Software backups, toolbar applications, and many more unwanted programs.
+- PUPs are unwanted programs installed from another installer in most cases
+  - Most anti-virus can identify PUPs
+  
+- **Examples** - Software backups, toolbar applications, and many more unwanted programs.
 
 # Worms
 * Malware that self-replicates
