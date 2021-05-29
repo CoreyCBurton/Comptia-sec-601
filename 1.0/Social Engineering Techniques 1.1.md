@@ -1,14 +1,14 @@
 # Phishing 
-A cybercrime in which a target(s) is contacted by email, telephone, or text message to lure individuals into providing sensitive data such as personal information, identity, password, and billing information. 
-> **Example** – An email saying your password will expire and to click on the link attached to it. The link is malicious or leads you to a fake website that tries to steal confidential information.  
+- An email based social engineering attack in which a cyber criminal sends an email from a **supposedly** reputable source to try and elicit private information. 
+  - **Example** – An email will appear in a mailbox asking to reset password for a particular program. The link is malicious or leads you to a fake website that tries to steal confidential information.  
 
 # Smishing 
-A portmanteau of “SMS” and phishing where cybercriminals send text messages to the user to try and get personal information or infect their device with malware. 
-> **Example** - A text message from your bank asking you for personal information or a text asking you to click on a malicious link. 
+- A portmanteau of **“SMS”** and phishing where cybercriminals send text messages to the user to try and get personal information or infect their device with malware. 
+  - **Example** - A text message from your bank asking you for personal information or even a text asking you to click on a malicious link. 
 
 # Vishing 
-A portmanteau of “voice” and phishing where cybercriminals make phone calls or leave voice mails to lure an individual to reveal personal information such as bank or credit card information. 
-> **Example** – During tax season, cybercriminals pretend to be the IRS to try and collect information. This also happened during COVID-19, the cybercriminals also acted like a vaccine center.
+- A portmanteau of “voice” and phishing where cybercriminals make phone calls or leave voice mails to lure an individual to reveal personal information such as bank or credit card information. 
+               - **Example** – During tax season, cybercriminals pretend to be the IRS to try and collect information. This also happened during COVID-19, the cybercriminals also acted like a vaccine center.
 
 # Spam 
 Unsolicited bulk messages being sent through email, instant messaging, or other digital communication tools. Cybercriminals use this to try and collect confidential information by reaching a large audience by mass messaging. 
