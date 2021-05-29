@@ -119,4 +119,4 @@
   - Gives the victim a sense of safety, they can claim they are a part of the IT team.
 
 - **Urgency**
-  – They state that this needs to be done or you will be arrested or your bank will be charged.
+  - They state that this needs to be done or you will be arrested or your bank will be charged.
