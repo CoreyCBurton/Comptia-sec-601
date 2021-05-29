@@ -53,179 +53,168 @@
 - **Example** - user clicks on a malicious website link. Website exploits a Flash/Java/Windows vulnerability. Launches PowerShell and downloads payload. Runs PowerShell scripts and executes in memory. Adds an auto start to registry.
 
 # Command and Control
-* A computer controlled by an attacker which is used to send commands to systems compromised by malware and receive stolen data from a target network
+- In a botnet, there is a command and control center that tells the bots what to do.
+  - It is the headquartes for the bots. They report to this center.
 
-* Cybercriminals use them as a headquarters for compromised machines in a botnet
-
-> A computer gets compromised and becomes the control center. That computer then starts recruiting bots.
+- **Example** - A computer gets compromised and becomes the control center. That computer then starts recruiting bots.
 
 # Bots 
-*	When your system is infected, it becomes a bot.
+- The bots are recruited by some sort of malware.
+  - Bots are usually installed by a trojan horse. 
 
-*	Bots are usually installed by a trojan horse. 
+- The bots work together and waits for commands from the **command-and-control center**. 
 
-*	The bots work together and waits for commands from the command-and-control center 
+- The groups work together in a bot net and can cause DDoS attacks, relay spam, and other type of computing task 
+  - Botnets are for sale
 
-*	The groups work together in a bot net and can cause DDoS attacks, relay spam, and other type of computing task 
-
-*	Botnets are for sale
-
-> The website https://map.lookingglasscyber.com/ shows what botnets are active and possible attacks. 
+- **Example** - This [website](https://map.lookingglasscyber.com/) shows what botnets are active and possible attacks. 
 
 # Logic Bomb 
-•	Waits for a predefined even
+- A malicious program or script that is set o run under particular circumstances or in resposne to a defined event
+  -	The logic bomb can be left by someone that had relations with the company or a grudge. 
 
-•	Often left by someone with a grudge with a company 
+- The logic bomb can follow time or date or is a user event
+  - Logic bombs are hard to trace, there is no digital signature 
 
-•	The logic bomb can follow time or date or is a user event
-
-•	Logic bombs are hard to trace, there is no digital signature 
-
-> In 2013 in South Korea, an email sent to employees had a trojan horse virus attached to it. A day later, the logic bomb went off. Storage and master boot records were deleted off devices showing error “Please install operating system”
+- **Example** - In 2013 in South Korea, an email sent to employees had a trojan horse virus attached to it. A day later, the logic bomb went off. Storage and master boot records were deleted off devices showing error “Please install operating system”. 
 
 # Spyware  
-•	Malware that spies on you, advertising, identity theft, affiliate fraud
+- Software that records information about a PC and its users. 
+  - Often installed without the users consent
+  - Often a trojan horse 
+  - Some spyware has keyloggers 
 
-•	Often is a trojan horse 
-
-•	Some spyware has keyloggers 
-
-> info stealers is a type of malware to scan infected computers and steal personal information. 
+- **Example** A **keylogger** is spyware that actively attempts to steal confidential information by recording keystrokes. 
+- **Example 2** **Adware** is a **PUP** that configures broser reconfigurations such as tracking cookies. Cane be installed as a program or as a browser extension.
 
 # Roolkit  
-•	Originally a Unix technique 
+- In windows, malware can only be manually installed with local administrator privileges. 
+ - They have to accept the UAC prompt.
+ - Viruses like a Trojan cant hide very well but can use common names to look like it is a normal program running.
 
-•	Modifies core system files in the kernel of a system
+- Malware running with admin priveleges is called a **Roolkit**.
+ - The term comes from Unix/Linux where any process running as root has inrestricted access to everything.
 
-•	Become invisible to traditional malware detection
+-	Modifies core system files in the kernel of a system
+  -	Becomes invisible to traditional malware detection
 
-> Zues/zbot malware was famous for cleaning out bank accounts. The Zbot combines with Necurs Rootkit which makes it impossible to delete zbot. 
+- **Example** - Zues/zbot malware was famous for cleaning out bank accounts. The Zbot combines with Necurs Rootkit which makes it impossible to delete zbot. 
+- ** Example 2** - US intelligence agencies have deveoped [DarmMatter and QuarkMatter](https://www.pcworld.com/article/3179348/after-cia-leak-intel-security-releases-detection-tool-for-efi-rootkits.html) EFI rootkits.
 
 # Spraying Attack 
-•	Try to log in with an incorrect password till they get locked out
+- The cyber criminal trys to log in with an incorrect password till they get locked out
+  - The attacker uses common passwords 
+ 
 
-•	The attacker uses common passwords 
+- If the common passwords do not work, they will move on to the next account after it is locked 
 
-•	If the common passwords do not work, they will move on to the next account after it is locked 
+- **Example** - An attacker tries 3 common passwords on an account and gets locked out. The attacker then moves on to the next computer.
 
 # Dictionary  
-•	Uses a dictionary to find common words 
+- A password attack that compares encrypted passwords against a predetermined list of possible password values.
+  - The common passwords are made by humans.
 
-•	Common passwords that are made by humans
+- There are dictionaries online that are common passwords for someone who works at a specific company. The attacker will then use that to target someone from the company they are looking at. 
+  - The dictionary password attacks can substitute letters such as “p&ssw0rd” 
+  - Takes time, it is not effiencent. 
 
-•	There are dictionaries online that are common passwords for someone who works at a specific company. The attacker will then use that to target someone from the company they are looking at. 
-
-•	The dictionary password attacks can substitute letters such as “p&ssw0rd” 
-
-•	Takes time 
-
-> Discovers common passwords and their hash attached to it such as ninja, dragon, football, letmein. 
+- **Example** - Discovers common passwords and their hash attached to it such as ninja, dragon, football, letmein. 
 
 # Brute force 
-•	Tries every password combination until the hash is matched 
+- A type of password attack where an attacker uses an application to try every possible alphanumeric combination to crack encrypted passwords.
+  - Tries every password combination until the hash is matched 
+  -	A strong hashing algorithm slows things down 
 
-•	A strong hashing algorithm slows things down 
+- **Example** - The attacker obtains a file and the hashes with the passwords. They will then use brute force against the hash with multiple letter combinations 
 
-> The attacker obtains a file and the hashes with the passwords. They will then use brute force against the hash with multiple letter combinations 
+- **Online** 
+  	- Very slow 
+    -	Most accounts will be locked out	
 
-> **Online** 
-•	Very slow 
-
-•	Most accounts will be locked out	
-
-> **Offline** 
-•	Obtains a list of users and hashes 
-
-•	Calculates a password hash and compares it to a stored hash
-
-•	Requires a lot of resources 
+- **Offline** 
+    - Obtains a list of users and hashes 
+    - Calculates a password hash and compares it to a stored hash
+    - Requires a lot of resources 
 
 # Rainbow tables 
-•	An optimized, prebuilt set of hashes. 
+- Tool for speeding up attacks against passwords by precomputing possible hashes.
+  - Doesn’t contain every hash
+  - Contains pre-calculated hashes 
 
-•	Doesn’t contain every hash
-
-•	Contains pre-calculated hashes 
-
-•	Speeds processes 
-
-•	You will have to have different rainbow tables for different hashing methods. Windows is different from MySQL.
+- You will have to have different rainbow tables for different hashing methods. Windows is different from MySQL.
+  - Refines the dictionary approach. 
 
 # Malicious universal serial bus (USB) cable 
-•	Looks like a normal USB cable 
-
-•	Operating system identifies it as a HID or a human interface Device, A keyboard doesn’t need extra rights or permissions. 
-
-•	Plug in usb cables that only you trust. 
+- Looks like a normal USB cable 
+  - Operating system identifies it as a HID or a human interface Device, A keyboard doesn’t need extra rights or permissions. 
+  - Plug in usb cables that only you trust. 
 
 # Malicious flash drive
-•	A free usb flash drive can a virus on it. It is a bad idea to plug on a flash drive when you do not know what is on it
+- A free usb flash drive can a virus on it. It is a bad idea to plug on a flash drive when you do not know what is on it.
+  - An older operating system would automatically run files 
 
-•	Older operating system would automatically run files 
+-	Additional electronics inside an infected flash drive can make the computer automatically run a program. 
 
-•	Additional electronics inside an infected flash drive can make the computer automatically run a program. 
-
-> Attackers can load malware in documents. Can be configured as a boot device. Acts as an ethernet adapter
+- **Example**- Attackers can load malware in documents. Can be configured as a boot device. Acts as an ethernet adapter
 
 # Skimming 
-•	Stealing credit card information, usually during a normal transaction 
+- Duplicating a smart xard by reading the confidential data stolen
+  - Stealing credit card information, usually during a normal transaction 
+  - Copies data from a magnetic strip, card number, expiration date, and card holder’s name
 
-•	Copies data from a magnetic strip, card number, expiration date, and card holder’s name
+- **Example** -ATM skimming that includes a small camera to watch for pins or puts a fake card reader that looks like it is a part of the device when it is actually there just to steal information.
 
-> ATM skimming that includes a small camera to watch for pins or puts a fake card reader that looks like it is a part of the device when it is actually there just to steal information.
+# Card Cloning 
+- Duplicates a smart card by physically cloning the crd
+  - Usually gets the credit card details from a skimmer 
 
-# Card cloning 
-•	Usually gets the credit card details from a skimmer 
+-	Creates a duplicate of a card that only has a strip, the chip cannot be replicated. 
+  - Gift cards are common with card cloning. 
 
-•	Creates a duplicate of a card that only has a strip, the chip cannot be replicated. 
+# Adversarial Artificial Intelligence (AI)
+- Using AI to identify vulnerabilities and attack vectors to circumvent security systems.
+ - Requires a lot of data training 
+ - Recognizes pattern with the data that is collected 
 
-•	Gift cards are common with card cloning. 
-
-# Adversarial artificial intelligence (AI)
-•	Requires a lot of data training 
-
-•	Recognizes pattern with the data that is collected 
-
-•	Used to stop spam, recommend products to an online retailer, prevent car accidents. 
+- **Example** - Used to stop spam, recommend products to an online retailer, prevent car accidents. 
 
 # Supply chain attacks 
-•	The supply chain consist of raw materials, manufactures, distributions, and customers
+- Attackers can infect any step along the way. People trust their suppliers.
+  - The supply chain consist of raw materials, manufactures, distributions, and customers
 
-•	Attackers can infect any step along the way. People trust their suppliers 
 
-•	One exploit can affect the whole supply chain 
+-	One exploit through a third party can give access to the whole supply chain.
 
-> 40 million credit card numbers where stolen from a supply chain. It started with a HVAC ac company. The attackers then got into Targets network
+- **Example** - 40 million credit card numbers where stolen from a supply chain. It started with a HVAC ac company. The attackers then got into Targets network
 
 # Cloud-based vs. on-premises attacks
-•	Attacks can happen in two places, on premises or on the cloud
+- Attacks can happen in two places, on premises or on the cloud
 
-•	Cloud base security, everything is centralized with no cost 
+- Cloud base security
+  -  everything is centralized with no cost 
 
-•	On premise security puts a burden on the client with data center security and infrastructure cost.
-
-•	On base security allows people in the company to change security while the cloud is upheld with a third party. 
+- On premise security
+  -  puts a burden on the client with data center security and infrastructure cost.
+  -  allows people in the company to change security while the cloud is upheld with a third party. 
 
 # Cryptographic attacks
-•	Data is encrypted 
+- Data is encrypted and the bad guy doesn’t have the key to the encrypted data 
+  - Attackers spend a lot of time trying to decrypt 
 
-•	The bad guy doesn’t have the key to the encrypted data 
-
-•	Attackers spend a lot of time trying to decrypt 
+- Use of weak ciphers suites and implementations can represent a critical vulnerability for an organization. 
 
 # Birthday attack 
-•	There 23 students in a classroom. What are the chances of them having the same birthday? It is %50. For 30 it is %70. 
-
-•	A hash Collison is when you have two different plaintext but they have the same hash. 
-
-•	When the hash collusion is found, brute force can be used 
+- A type of attack that exploits weaknesses in the mathematical algorithms used to encrypt weak passwords. It has to have the same inputs with the same encrypted outputs.
+  - **Origin** - There 23 students in a classroom. What are the chances of them having the same birthday? It is %50. For 30 it is %70. 
 
 # Collisions 
-•	Hashes are supposed to be unique; different input data shouldn’t create the same hash 
+- Hashes are supposed to be unique; different input data shouldn’t create the same hash 
+  - When the same there is the same hash for a different output, It causes the collision
 
-•	Message Digest Algorithm 5 had collisions
+- **Example** Message Digest Algorithm 5 had collisions
 
 # Downgrade attack
-•	Instead of using good encryption, you use something that is not great
+- A cryptographic attack where the attacker explouts the need for backward compatibility.
+- - Forces a computer system to abandon the use of encrypted messages in favor of plaintext messages.
 
-•	In 2014 a TLS vulnerability POODLE, they forced the encryption to SSL3.0 which has vulnerabilities. 
+- **Example** in 2014, a TLS vulnerability POODLE, they forced the encryption to SSL3.0 which has vulnerabilities. 
