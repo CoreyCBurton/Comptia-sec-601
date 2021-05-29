@@ -1,12 +1,11 @@
 # Ransomeware
-* The attacker goes after data that is valuable such as Family pictures and videos. For a company, it could be planning documents.
-
-* The attacker will ask for money. Sometimes it could be a hoax. **Crypto malware** is where they encrypt your files, and you will have to pay the attacker a fee 
- to decrypt and get your files back. 
+- A type of malware that threatens to publish the victim's data or block access unless the ransom is paid. 
+  - **Crypto malware** is used to block access 
  
-* To counteract Ransomware, always have a backup and make sure your system is up to date. 
+- To counter ransomware, make sure you backup of your information. It does take time for you to reset which can cost the company money.
 
-> Cerber is a RaaS platform that appeared in 2016. Cerber took advantage of a Microsoft vulnerability to infect networks. It used AES-256 algorithm to infect backups and personal data.
+  - **Example** - Cerber is a RaaS platform that appeared in 2016. Cerber took advantage of a Microsoft vulnerability to infect networks. It used AES-256 algorithm to infect backups and personal data. Darkside is also another Ransomeware that has appeared in 2020. 
+ 
 
 # Trojans 
 * The background story of Trojan comes from Greeks and how they captured Troy by hiding in a big wooden horse.
