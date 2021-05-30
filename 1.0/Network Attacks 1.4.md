@@ -118,10 +118,9 @@
   - can be created by accident; loop or even downloading a big file
   - can be caused with botnets 
 
-> Application DoS
-- Makes the application break or work harder by over flowing with packets
-
-- A zip bomb can be used in an Application Dos and even cloud base services
+- Application DoS
+  - Makes the application break or work harder by over flowing with packets
+  - A zip bomb can be used in an Application Dos and even cloud base services
 
 - **Operational Technology (OT) DoS**
    - the hardware and software for industrial equipment 
