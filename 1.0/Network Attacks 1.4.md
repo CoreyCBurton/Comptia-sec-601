@@ -93,21 +93,21 @@
  - Send a fake response to a valid DNS request 
 
 # Domain hijacking
-* Gets access to the domain registration and you have control of where the traffic flows 
+- Gets access to the domain registration and you have control of where the traffic flows 
+  - Brute force is used, Social engineering the password, gains access to the email address
 
-* Brute force is used, Social engineering the password, gains access to the email address
-
-> The domain change in a brazilian bank left the hacker under control for 6 hours. The bank had 5 million customers and 27 billion in assets. 
+- **Example** - The domain change in a Brazilian bank left the hacker under control for 6 hours. The bank had 5 million customers and 27 billion in assets. 
 
 # Universal resource locator (URL) redirection
-* Unique identifier used to locate a resource on the internet. It is also referred as a web address
-
-* Hacker redirects the URL to a malicious website
+- Unique identifier used to locate a resource on the internet. It is also referred as a web address
+  - Hacker redirects the URL to a malicious website
 
 # Domain reputation
-* A concept where in a domain repuatation API, or a similar program is able to assess the reputation of a domain or IP address using a set of data resources.
+- If a domain or email servers have been hijacked, they are likely used for spam or distributing malware. 
+  - The domain could than be put on a block list. 
 
-* It is used to accept and reject connections.
+- concept where in a domain repuatation API, or a similar program is able to assess the reputation of a domain or IP address using a set of data resources.
+  - It is used to accept and reject connections.
 
 # Distributed denial-of-service (DDoS)
 * Force a server to stop working 
@@ -123,47 +123,38 @@
 * can be caused with botnets 
 
 > Application DoS
-* Makes the application break or work harder 
+- Makes the application break or work harder by over flowing with packets
 
-* a zip bomb can be used in an Application Dos and even cloud base services
+- A zip bomb can be used in an Application Dos and even cloud base services
 
-> Operational Technology (OT) DoS
-* the hardware and software for industrial equipment 
+- **Operational Technology (OT) DoS**
+   - the hardware and software for industrial equipment 
 
-* Powergrid can stop operate and even traffic lights can turn all green which is hazardous 
+- **Example** - Powergrid can stop operate and even traffic lights can turn all green which is hazardous 
 
 # Malicious scripts 
-* Automate task and they have alot of speed 
+- Automate task and they have alot of speed 
 
-> Powershell
-* .ps1 file extension 
+- **Powershell**
+    - .ps1 file extension 
+    - Extends command line function 
+    - Attacks windows OS
 
-* Extends command line function 
+- **Python**
+    - General-purpose scripting language 
+    - Popular in alot of tech and used for cloud orchestration
+    - Attacks infrastructure; Routers, switches, and servers
 
-* Attacks windows OS
+- **Shell script**
+    - Automate and extend the command line 
+    - Starts with a shebang
+    - Attack Linux/unix environments
+    - Controls the os on the command line 
 
-> Python
-* General-purpose scripting language 
+- **Macros** 
+    - Automate functions inside an application 
+    - Attackers create exploits that execute with macros 
 
-* Popular in alot of tech and used for cloud orchestration
-
-* Attacks infrastructure; Routers, switches, and servers
-
-> Shell script 
-* Automate and extend the command line 
-
-* Starts with a shebang
-
-* Attack Linux/unix environments
-
-* Controls the os on the command line 
-
-> Macros 
-* Automate functions inside an application 
-
-* Attackers create exploits that execute with macros 
-
-> Visual Basic For Applications
-* Automates processes in a Windows application 
-
-* Code can be run through these processes; very vulnerable. 
+- **Visual Basic For Applications**
+    - Automates processes in a Windows application 
+    - Code can be run through these processes; very vulnerable. 
