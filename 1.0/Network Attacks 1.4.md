@@ -1,127 +1,96 @@
 # Rogue access point
-* An unauthorized wireless access point 
-
-* May be added by an employee or an attacker 
-
-* A significant backdoor
-
-* A very easy to plug in a wireless AP
-
-> Schedule a periodic survey and consider using 802.1X(Network Access Control)
+- A point that has been installed on the network without authorization, whether with malicious intent or not.
+  - It detects rouge WAPs
+  - An unauthorized WAP creates a backdoor to attack a networ
 
 # Evil twins
-* Looks legitimate but malicious
-
-* Configure an access point to look like an existing network
-
-* Overpower the exisitng access points 
-
-* WiFi hotspots are easy to fool
+- A wireless access point that deceies users into believing that it is a legitimate network access point
+  - It is a WAP masquerading as a legitimate one
 
 # Bluejacking 
-* Sending of unsolicited messages to another device via bluetooth 
-
-* Typical functional distance is about 10 meters 
-
-* Bluejack with an address book object
-
-> Low security but attackers can still send messages 
+- Sending of unsolicited messages to another device via bluetooth 
+  - Typical functional distance is about 10 meters 
+  - Personal Area Networks (PANs)
 
 # Bluesnarfing 
-* Access a Bluetooth-enabled device and transfer data
-
-* First major security weakness in Bluetooth
-
-> Older device has access to bluetooth cam be vulnerable
+- A wireless attack where an attacker gains access to unauthorized information on a device using a bluetooth connection.
+  - First major security weakness in Bluetooth
+  - Even a PIN can be brute forced through
+  - Older devices that has access to bluetooth cam be vulnerable
 
 # Wireless Disassociation 
-* The network keeps on disappearing; you are not able to stop it
+- The network keeps on disappearing; you are not able to stop it
+  -  Wireless deauthentication; denial of service attack
 
-* Wireless deauthentication; denial of service attack
-
-> 802.11 management frames allow you to find access points and manage Qos. 
+- **Example** - 802.11 management frames allow you to find access points and manage Qos. 
 
 # Wireless jamming
-* Many different types; contant, random bits / constant, legitimate frams
-
-* Sent at random times and Reactive jamming; When someine tries to communicate
-
-* Needs to be somewhere close 
+- Many different types; contant, random bits / constant, legitimate frams
+  - Sent at random times and Reactive jamming; When someine tries to communicate
+  = Needs to be somewhere close 
 
 # Radio frequency (RF) jamming 
-* Denial of service 
-
-* Transmit interfering wireless signals
-> Decreases the signal-to-noises ratio at the receiving deive
-
-* Sometimes its not intentional but can be intentinoal 
+- Denial of service attack
+  - Decreases the signal-to-noises ratio at the receiving deive
+  - Sometimes it is not intentional but can be intentional
 
 # Radio-frequency identification(RFID)
-* They are everywhere; They are used anywhere to track
-
-* Radar Technology; No battery 
-
-> RFID attacks can involve data capture, spoof the reader, denial of service, and decrypt communication
+- They are everywhere; They are used anywhere to track
+  - Radar Technology; No battery 
+  - RFID attacks can involve data capture, spoof the reader, denial of service, and decrypt communication
 
 # Near field communication (NFC)
-* Two-way wireless communication 
+- Two-way wireless communication 
+  - payment systems 
+  - Bootstrap for other wireless; a token 
 
-* payment systems 
-
-* Bootstrap for other wireless; a token 
-
-> Remote capture, Frequency jamming, Relay; on path attack 
+- **Examples** Remote capture, Frequency jamming, Relay; on path attack 
 
 # Initialization vector
-* An input to a cryptographic primitive being used to provide the initial state. 
+- An input to a cryptographic primitive being used to provide the initial state. 
 
-* Attack on wireless network that modifies the IV of a encrpyed packet. The attacker can learn the plaintext of one packet then compute the RC4 key. 
+- Attack on wireless network that modifies the IV of a encrpyed packet. The attacker can learn the plaintext of one packet then compute the RC4 key. 
 
 # MAC address
-* The physical address of a network adapter 
+- The physical address of a network adapter 
+  -  48 Bits / 6 bytes long
 
-* 48 Bits / 6 bytes long
+* **Example** 8c:2d:aa:4b:98:a7 8C:2d:aa = Manufactur model number 4b:98:a7 = Serial number (speicifc to the address)
 
-* Example: 8c:2d:aa:4b:98:a7 8C:2d:aa = Manufactur model number 4b:98:a7 = Serial number (speicifc to the address)
+- Lan switching 
+- foward or drop frames; Based on the MAC address 
+  - Gather a list of MAC addresses 
 
-> Lan switching 
-* foward or drop frames; Based on the MAC address 
+- Maintains a loop-free environment ( Using spanning tree protocol ) 
 
-* Gather a list of MAC addresses 
+- the sources mac address and destinational mac address get sent to the switch 
+  - The switch makes a table of MAC addreses which directs traffic 
 
-* Maintains a loop-free environment ( Using spanning tree protocol ) 
+- MAC flooding 
+- A variation of an ARP poisoning attack where a switch's cache table is inundated with frames from random source MAC addresses
+  - The mac table is only so big 
 
-* The sources mac address and destinational mac address get sent to the switch 
+- Attackers send info to the mac table and fill it up which turns the switch into a hub. The hub then can capture all network for a hacker to take advantage.
 
-* The switch makes a table of MAC addreses which directs traffic 
-
-# MAC flooding 
-* The mac table is only so big 
-
-* Attackers send info to the mac table and fill it up which turns the switch into a hub. The hub then can capture all network for a hacker to take advantage.
+![image](https://user-images.githubusercontent.com/81980702/120088435-142ce700-c0b6-11eb-9221-0e2f732195e7.png)
+> Picture of ARP flooding
 
 # MAC cloning
-* attacker modifies the mac address to match the mac address of the legitimate device
-
-* Create a DoS; Disrupt coomunication to the legit MAC
-
-* Manipulate through software 
+- attacker modifies the mac address to match the mac address of the legitimate device
+  - Creates a DoS; Disrupt coomunication to the legit MAC
+  - Manipulate through software 
 
 # Address resolution protocol (ARP) poisoning
-* Links addressed to the right places
+- ARP stands for Address Resolution Protocol 
+- A network-based attack where an attacker with access to target local network segments redirects an IP address to the MAc address of a computer that is not the intended recipient
 
-* when you ping another computer through the terminal, it sends arp request 
-
-* on path attack that can receives data from two different computers
+- on path attack that can receives data from two different computers
 
 # DNS poisoning (spoofing)
-* Modifys the information in a DNS server
-
-* Modifty the client host file 
-
-* Send a fake response to a valid DNS request 
-
-> The bad guy changes the DNS server actively
+- A network pased attack where an attacker exploits the traditionally open nature of a DNS system to redirect a domain name to an IP address of the attackers choosing
+ - Modifys the information in a DNS server
+ - Modifty the client host file 
+ - Send a fake response to a valid DNS request 
 
 # Domain hijacking
 * Gets access to the domain registration and you have control of where the traffic flows 
