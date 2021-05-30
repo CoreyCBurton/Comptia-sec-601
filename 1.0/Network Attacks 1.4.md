@@ -110,17 +110,13 @@
   - It is used to accept and reject connections.
 
 # Distributed denial-of-service (DDoS)
-* Force a server to stop working 
-
-* Takes a design failure or vulnerability 
-
-* can be caused for a creative advantage 
-
-* can be used to create a spoofing attack 
-
-* can be created by accident; loop or even downloading a big file
-
-* can be caused with botnets 
+- Packets can be sent casuing the network to stop working
+  - Force a server to stop working 
+  - Takes a design failure or vulnerability 
+  - can be caused for a creative advantage 
+  - can be used to create a spoofing attack 
+  - can be created by accident; loop or even downloading a big file
+  - can be caused with botnets 
 
 > Application DoS
 - Makes the application break or work harder by over flowing with packets
