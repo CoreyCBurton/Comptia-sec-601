@@ -77,7 +77,7 @@
 - LX1
   - CentOS linux distrubution with vulnerable web services 
 
-#Powershell on MS1
+# Powershell on MS1
 - command ``ipconfig /all >$env:USERPROFILE\Desktop\ipconfig.txt`` outputs this file below 
 
 ![image](https://user-images.githubusercontent.com/81980702/121722340-f181d180-caaa-11eb-9179-b3ee008e1073.png)
