@@ -10,7 +10,7 @@
 
 # ip route show
 ![image](https://user-images.githubusercontent.com/81980702/121723753-889b5900-caac-11eb-8e4e-9736bc0a2d70.png)
-> The IP for the router is 10.1.0.254
+- The IP for the router is 10.1.0.254
 
 # arp -a
 - The address Resolution Protocol on this vm is 10.1.0.1
