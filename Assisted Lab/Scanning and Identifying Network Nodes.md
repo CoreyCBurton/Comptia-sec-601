@@ -5,7 +5,7 @@
 - eth0 is shown below 
 ![image](https://user-images.githubusercontent.com/81980702/121723552-4540ea80-caac-11eb-888e-c5d4198cd0bb.png)
 
-- ``ip a`` also shows this information/
+- ``ip a`` also shows this information
   - This is the new version of ifconfig 
   - The ip address is ``10.1.0.192``
 
@@ -25,3 +25,4 @@
 
 # netdiscover 
 - Using command ``netdiscover`` -i eth0 -r 10.1.0.0/24
+  - This list 5 different IP addresses 
