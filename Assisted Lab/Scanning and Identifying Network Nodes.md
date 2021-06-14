@@ -24,5 +24,5 @@
   - you can also use ``netdiscover`` in kali linux
 
 # netdiscover 
-- Using command ``netdiscover`` -i eth0 -r 10.1.0.0/24
+- Using command ``netdiscover -i eth0 -r 10.1.0.0/24``
   - This list 5 different IP addresses 
