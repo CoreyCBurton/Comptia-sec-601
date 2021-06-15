@@ -7,7 +7,7 @@
 
 # Help center
 - The screenshot below shows what the help center provides
-  - ![image](https://user-images.githubusercontent.com/81980702/121715697-cbf1c980-caa4-11eb-8de4-0abd80d91ab7.png)
+   ![image](https://user-images.githubusercontent.com/81980702/121715697-cbf1c980-caa4-11eb-8de4-0abd80d91ab7.png)
 
 # Change resolution
 - In the top left, this icon can change what the window shows
