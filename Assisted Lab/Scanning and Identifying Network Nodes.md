@@ -50,7 +50,7 @@
 - Port 80 is open on 10.1.0.0
 
 - ``nmap --top-ports 20 10.1.0.0/24``scans the most common ports
-![image](https://user-images.githubusercontent.com/81980702/122445304-0bb62680-cf67-11eb-8464-bd7931f6584a.png)
+- ![image](https://user-images.githubusercontent.com/81980702/122445304-0bb62680-cf67-11eb-8464-bd7931f6584a.png)
 
 - ``nmap -sn 10.1.0.0/24`` scan up and down ports 
 ![image](https://user-images.githubusercontent.com/81980702/122445653-5e8fde00-cf67-11eb-8fbd-9411dc2f4510.png)
