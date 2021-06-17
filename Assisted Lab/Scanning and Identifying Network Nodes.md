@@ -34,7 +34,7 @@
 # Pathping
 - `` Command pathping 10.1.0.192`` returns the screenshot below 
 ![image](https://user-images.githubusercontent.com/81980702/121973589-40499880-cd43-11eb-893a-bf520e066a14.png)
-> **Please note** - 0 packets have dropped
+- **Please note** - 0 packets have dropped
 
 # NMAP
 - Using kali linux and the command `` nmap localhost`` it shows open ports
