@@ -43,14 +43,14 @@
 - ``nmap 10.1.0.0/24`` shows a list of ports that are open on the network
 
 - Using command ``nmap -A 10.1.0.254`` shows this in the screen shot below 
-- ![image](https://user-images.githubusercontent.com/81980702/121973951-fca35e80-cd43-11eb-83f5-97cdcf30bf5e.png)
+![image](https://user-images.githubusercontent.com/81980702/121973951-fca35e80-cd43-11eb-83f5-97cdcf30bf5e.png)
 
 - command ``nmap -p 20-200 10.1.0.0/24`` scans the 20-200 ports
-- ![image](https://user-images.githubusercontent.com/81980702/122444912-a2ceae80-cf66-11eb-8c67-4e3f22755d56.png)
+![image](https://user-images.githubusercontent.com/81980702/122444912-a2ceae80-cf66-11eb-8c67-4e3f22755d56.png)
 - Port 80 is open on 10.1.0.0
 
 - ``nmap --top-ports 20 10.1.0.0/24``scans the most common ports
-- ![image](https://user-images.githubusercontent.com/81980702/122445304-0bb62680-cf67-11eb-8464-bd7931f6584a.png)
+![image](https://user-images.githubusercontent.com/81980702/122445304-0bb62680-cf67-11eb-8464-bd7931f6584a.png)
 
 - ``nmap -sn 10.1.0.0/24`` scan up and down ports 
 ![image](https://user-images.githubusercontent.com/81980702/122445653-5e8fde00-cf67-11eb-8fbd-9411dc2f4510.png)
@@ -58,12 +58,12 @@
 # cURL command 
 - Banner grabbing is a way of identifying service versions. This information helps attackers select potentially vulnerable machines.
   - ``curl -s -I 10.1.0.1``
-- ![image](https://user-images.githubusercontent.com/81980702/122446063-dbbb5300-cf67-11eb-9435-6fb57dd990fd.png)
+![image](https://user-images.githubusercontent.com/81980702/122446063-dbbb5300-cf67-11eb-9435-6fb57dd990fd.png)
 - It is running IIS 10
 
 # Firefox
 - Using command ``firefox http://10.1.0.1`` you can see what the server is running on a browser.
-- ![image](https://user-imagefirefox http://10.1.0.1s.githubusercontent.com/81980702/122446466-4f5d6000-cf68-11eb-9104-5fdc54bd3cc3.png)
+![image](http://10.1.0.1s.githubusercontent.com/81980702/122446466-4f5d6000-cf68-11eb-9104-5fdc54bd3cc3.png)
 
 # Dig
 - These name records can also reveal information about how a network is configured. In this task, you will gather DNS information by using the dig utility.
