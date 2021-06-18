@@ -52,6 +52,39 @@
 
 ![image](https://user-images.githubusercontent.com/81980702/122509742-e3abdf00-cfc9-11eb-8f42-454c51e9cdd1.png)
 
+# TCPdump
+- This is being ran in Kali Linux
+  - Command `` tcpdump -vv dst 10.1.0.2 and port www -w ww.pcap`` listens for packets
+  - The packets will be directed to the file www.pcap
+
+- For this example, I visted the 515 support server
+  - ctrl+C to stop the tcp dump 
+  ![image](https://user-images.githubusercontent.com/81980702/122579302-63fa3080-d01a-11eb-9d3e-fd6937b6a3ce.png)
+
+- Opening the PCAP file that was collected in wireshark brings this 
+![image](https://user-images.githubusercontent.com/81980702/122579486-9310a200-d01a-11eb-92d6-c67a54290b2a.png)
+
+- You can find the credentials we used through this method 
+
+# Tcpdump SSH 
+- command `` tcpdump -vv dst 10.1.0.10 and port ssh -w ssh.pcap `` captures ssh packets
+
+- Through a second window, I am going to connect to root by `` ssh root@10.1.0.10`` and use the default password
+![image](https://user-images.githubusercontent.com/81980702/122580495-a2441f80-d01b-11eb-915e-b42fe23abb9e.png)
+
+- The packets captured is listed below 
+![image](https://user-images.githubusercontent.com/81980702/122580729-e3d4ca80-d01b-11eb-90de-edfe26ebdcf1.png)
+
+# Conclusion
+- I viewed HTTP and SSH traffic
+
+- HTTPS stops outside listeners from getting this information. 
+
+
+
+
+
+
 
 
 
