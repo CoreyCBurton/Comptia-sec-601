@@ -67,15 +67,31 @@
 
 # Dig
 - These name records can also reveal information about how a network is configured. In this task, you will gather DNS information by using the dig utility.
+  - The flag -x means dot notation
 
 - command ``dig -x 10.1.0.254``
 - ![image](https://user-images.githubusercontent.com/81980702/122446868-c1ce4000-cf68-11eb-9023-5313bc754373.png)
 - 10.1.0.1 is the server that answers the query 
 
+# FQDN
+- Stands for Fully qualified domain name
+  - MS1.corp.515support.com. is the FQDN
+![image](https://user-images.githubusercontent.com/81980702/122486660-24dac980-cf9f-11eb-86f1-02cb014cf3fb.png)
 
+# SOA records
+- Stands for Start of Authority 
+  - Returns the FQDN of the DNS server 
 
+- command ``dig soa corp.515support.com``
+![image](https://user-images.githubusercontent.com/81980702/122486876-90249b80-cf9f-11eb-880d-ce47cd62be66.png)
 
+# Summarize the lab
+- dentified the Kali Linux and Windows servers, performed basic scans of the network, identified hosts and services, used banner grabbing to identify services, gathered more DNS information.
 
+# How can hackers use this information?
+1. To decide what servers to attack
+2. To map the network in preparation for an attack.
+3. To check for old services that may be unpatched.
 
 
 
