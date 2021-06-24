@@ -1,8 +1,7 @@
 # Exploring the Lab Environment
 - Used to show VMs 
   - The screenshot below shows what VMs are available
-  
-![Capture](https://user-images.githubusercontent.com/81980702/121715541-9f3db200-caa4-11eb-9be9-dd06c3a497d7.JPG)
+  ![Capture](https://user-images.githubusercontent.com/81980702/121715541-9f3db200-caa4-11eb-9be9-dd06c3a497d7.JPG)
 
 
 # Help center
