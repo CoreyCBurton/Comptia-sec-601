@@ -1,35 +1,36 @@
 # Intro
-- In this activity, you will use Wireshark and tcpdump to capture network traffic and display relevant information on the local network. Interpreting the output from such captures is useful for security assessments.
+- In this lab, The user will use Wireshark and tcpdump to capture network traffic and display relevant information on the local network. 
+	- Interpreting the output from such captures is useful for security assessments.
 
-# Kali linux
-- Log in to kali linux
+# Kali Linux
+- Log in to Kali Linux
   - Select the Wireshark for the application
-  - ![image](https://user-images.githubusercontent.com/81980702/122490323-5d7ea100-cfa7-11eb-82b2-e9d2ffa01036.png)
+   ![image](https://user-images.githubusercontent.com/81980702/122490323-5d7ea100-cfa7-11eb-82b2-e9d2ffa01036.png)
 
-- Under capture Select Eth0 adapter
-  - Under the filter box type IP
+- Select the Eth0 adapter
   - This shows IPv4 traffic, not IPv6
 
 # Opening Firefox
-- Using command ``firefox http://10.1.0.2`` this opens up the server
+- Using command ``firefox http://10.1.0.2`` 
+	- This opens up the server
   - There will be packets captured when opening up wireshark
 ![image](https://user-images.githubusercontent.com/81980702/122490641-15ac4980-cfa8-11eb-80e2-2693bbc00834.png)
 
-# What wireshark captures 
+# What Wireshark captures 
 - Framet
   - this shows information about the bytes captured.
 
 - Ethernet II
-  — this shows the frame type (data link layer/layer 2) and the source and destination MAC addresses. Note that the first part of the address (the OUI) is identified as belonging to Microsoft (all the VMs are using MS virtual adapters). The last piece of information is the type of network protocol contained in the frame (IPv4).
+  - this shows the frame type (data link layer/layer 2) and the source and destination MAC addresses. Note that the first part of the address (the OUI) is identified as belonging to Microsoft (all the VMs are using MS virtual adapters). The last piece of information is the type of network protocol contained in the frame (IPv4).
 
 - Internet Protocol Version 4
-  — this is the IPv4 datagram, notably showing the source and destination IP (layer 3) addresses. Note there is usually also a GeoIP function in this section, but as these are private addresses, they cannot be resolved to a particular regional registry or ISP.
+  - this is the IPv4 datagram, notably showing the source and destination IP (layer 3) addresses. Note there is usually also a GeoIP function in this section, but as these are private addresses, they cannot be resolved to a particular regional registry or ISP.
 
 - User Datagram Protocol
-  — layer 4 (transport) uses either UDP or TCP. The most significant fields here are the source and destination ports. UDP port 53 is the "well known" DNS server port.
+  - layer 4 (transport) uses either UDP or TCP. The most significant fields here are the source and destination ports. UDP port 53 is the "well known" DNS server port.
 
 - Domain Name System
-  — this is the application protocol. Depending on which frame you selected, you may be looking at a query or at a response.
+  - this is the application protocol. Depending on which frame you selected, you may be looking at a query or at a response.
   
 ![image](https://user-images.githubusercontent.com/81980702/122508878-5320cf00-cfc8-11eb-9cb9-734b2997d15d.png)
 
@@ -43,7 +44,7 @@
 - Transmission Control Protocol (TCP) is where destination port numbers are found.
 
 # MS1 Server Manager
-- Tools > Internet Information Services (IIS) manager
+- The path to follow is Tools > Internet Information Services (IIS) manager
   - Go into the sites node 
 ![image](https://user-images.githubusercontent.com/81980702/122509580-a5aebb00-cfc9-11eb-8f5c-5b1e54d8733c.png)
 
@@ -76,12 +77,9 @@
 ![image](https://user-images.githubusercontent.com/81980702/122580729-e3d4ca80-d01b-11eb-90de-edfe26ebdcf1.png)
 
 # Conclusion
-- I viewed HTTP and SSH traffic
+-  Viewed HTTP and SSH traffic
 
 - HTTPS stops outside listeners from getting this information. 
-
-
-
 
 
 
