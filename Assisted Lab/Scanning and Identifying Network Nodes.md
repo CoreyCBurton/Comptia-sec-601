@@ -47,7 +47,9 @@
  ![image](https://user-images.githubusercontent.com/81980702/121973951-fca35e80-cd43-11eb-83f5-97cdcf30bf5e.png)
 
 - command ``nmap -p 20-200 10.1.0.0/24`` scans the 20-200 ports
- ![image](https://user-images.githubusercontent.com/81980702/122444912-a2ceae80-cf66-11eb-8c67-4e3f22755d56.png)
+
+![image](https://user-images.githubusercontent.com/81980702/122444912-a2ceae80-cf66-11eb-8c67-4e3f22755d56.png)
+
 > Port 80 is open on 10.1.0.0
 
 - ``nmap --top-ports 20 10.1.0.0/24``scans the most common ports
@@ -59,7 +61,8 @@
 # cURL command 
 - Banner grabbing is a way of identifying service versions. This information helps attackers select potentially vulnerable machines.
   - ``curl -s -I 10.1.0.1``
- ![image](https://user-images.githubusercontent.com/81980702/122446063-dbbb5300-cf67-11eb-9435-6fb57dd990fd.png)
+  
+![image](https://user-images.githubusercontent.com/81980702/122446063-dbbb5300-cf67-11eb-9435-6fb57dd990fd.png)
 > This server is running IIS 10
 
 # Firefox
